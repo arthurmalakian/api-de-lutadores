@@ -17,12 +17,6 @@ Em seguida crie uma chave de criptografia
 php artisan key:generate
 ```
 
-Crie o link simbolico entre a pasta public e storage
-
-```bash
-php artisan storage:link
-```
-
 Crie e popule o banco de dados
 
 ```bash
