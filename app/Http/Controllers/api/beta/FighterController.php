@@ -11,6 +11,6 @@ class FighterController extends Controller
 {
     public function index($amount)
     {
-        return Fighter::inRandomOrder()->limit($amount)->get();
+        return Fighter::factory()->count($amount)->make();
     }
 }
