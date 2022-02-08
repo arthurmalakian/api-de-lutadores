@@ -5672,7 +5672,7 @@
                 "php": "^7.1 || ^8.0",
                 "psr/container": "^1.0 || ^2.0",
                 "symfony/deprecation-contracts": "^2.2 || ^3.0",
-                "/fakerfzaninott": "~1.4"
+                "fzaninotto/faker": "~1.4"
             },
             "conflict": {
                 "fzaninotto/faker": "*"
