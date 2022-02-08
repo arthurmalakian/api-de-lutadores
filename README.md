@@ -1,9 +1,9 @@
 #API de lutadores
 
 
-Nessa api eu criei 1000 lutadores para a 12412451ª temporada de Round 6!
+Nessa api eu criei 10000 lutadores para a 12412451ª temporada de Round 6!
 
-## Installation
+## Installação
 
 Utilize o gerenciador de pacotes [composer](https://getcomposer.org/) para instalar as dependencias do projeto.
 
@@ -31,6 +31,12 @@ php artisan migrate --seed
 
 ## Usagem
 
+Instancie a aplicação para poder fazer requisições
+```bash
+php artisan serve
+```
+
+Exemplo de requisição
 ```bash
 http://127.0.0.1:8000/api/get-fighters/{numero_de_lutadores}
 ```

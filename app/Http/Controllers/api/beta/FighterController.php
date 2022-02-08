@@ -11,7 +11,6 @@ class FighterController extends Controller
 {
     public function index($amount)
     {
-        dd(Http::get('https://mipsum.herokuapp.com/frases/2')->json('frase'));
         return Fighter::inRandomOrder()->limit($amount)->get();
     }
 }
